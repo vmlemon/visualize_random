@@ -19,3 +19,4 @@ uint32 rand_tausworth();
 bob_rand_struct init_bob_rand();
 uint32 autoranval();
 #endif
+

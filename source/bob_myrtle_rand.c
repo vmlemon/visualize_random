@@ -28,3 +28,4 @@ bob_rand_struct init_bob_rand(){
 uint32 autoranval(){
 	return ranval(&r);
 }
+

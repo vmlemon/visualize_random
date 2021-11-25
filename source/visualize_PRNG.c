@@ -1,11 +1,11 @@
-#include "SDL2/SDL.h"
+#include </opt/homebrew/include/SDL2/SDL.h>
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <string.h> 
 #include <math.h>
 #include <limits.h>
 #include <time.h>
-#include <conio.h> 
+//#include <conio.h> 
 #include <string.h>
 #include <stdbool.h>
 #include "uint.h"

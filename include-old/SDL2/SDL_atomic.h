@@ -71,10 +71,16 @@
 #define HAVE_MSC_ATOMICS 1
 #endif
 
+#include <libkern/OSAtomic.h>
+
 /* Set up for C function definitions, even when using C++ */
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+//int64_t OSAtomicCompareAndSwap32Barrier((int64_t), (int64_t), (volatile int64_t*) );
+//int64_t OSAtomicCompareAndSwap64Barrier((int64_t), (int64_t), (volatile int64_t*) );
+#include <stdatomic.h>
 
 /**
  * \name SDL AtomicLock
